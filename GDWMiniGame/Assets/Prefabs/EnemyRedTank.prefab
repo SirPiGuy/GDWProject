@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 8049432466656983245}
   - component: {fileID: -316675635243101943}
   - component: {fileID: -2021004178563179564}
+  - component: {fileID: 1003255328399000424}
   - component: {fileID: -2333232321584784365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemyRedTank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,6 +94,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &1003255328399000424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280263007302502308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae96a319425eec439963c0cb48660a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 2547403662569528447, guid: c0e375f7ecae033458ceeed5d2936111, type: 3}
 --- !u!114 &-2333232321584784365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +131,7 @@ GameObject:
   - component: {fileID: 1280263007539952627}
   - component: {fileID: 1280263007539952624}
   - component: {fileID: 1280263007539952625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +226,7 @@ GameObject:
   - component: {fileID: 1280263007693843361}
   - component: {fileID: 1280263007693843390}
   - component: {fileID: 1280263007693843391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +322,7 @@ GameObject:
   - component: {fileID: 1280263007767961423}
   - component: {fileID: 1280263007767961420}
   - component: {fileID: 1280263007767961421}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Treads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +417,7 @@ GameObject:
   - component: {fileID: 1280263008924074464}
   - component: {fileID: 1280263008924074465}
   - component: {fileID: 1280263008924074494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BarrelHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

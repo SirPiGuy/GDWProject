@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8053857707839451654}
   - component: {fileID: 8053857707839451655}
   - component: {fileID: 8053857707839451648}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Treads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 8053857707881975558}
   - component: {fileID: 677744809990868469}
   - component: {fileID: 108792816285145552}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerTank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,8 +142,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1.0675178, y: 0.8040178, z: 1.2250586}
-  m_Center: {x: -0.0022506714, y: 0.08898878, z: 0.009002447}
+  m_Size: {x: 1.0675178, y: 1.9684565, z: 1.2250586}
+  m_Center: {x: -0.0022506714, y: 0.67120814, z: 0.009002447}
 --- !u!114 &108792816285145552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 8053857708031566118}
   - component: {fileID: 8053857708031566119}
   - component: {fileID: 8053857708031566112}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BarrelHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 8053857708282353333}
   - component: {fileID: 8053857708282353334}
   - component: {fileID: 8053857708282353335}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 8053857708396369658}
   - component: {fileID: 8053857708396369659}
   - component: {fileID: 8053857708396369652}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}

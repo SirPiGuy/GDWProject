@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -51,9 +51,9 @@ public class PlayerController : MonoBehaviour
         //If the player presses Space, they will shoot a bullet
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //TODO: Get bullet to shoot forward relative to the player, not the world.
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation); //Launch projectile from the player
+            Instantiate(projectilePrefab, transform.position, transform.rotation); //Launch projectile from the player
         }
 
     }
+
 }
